@@ -6,11 +6,9 @@
 .container{
   display: flex;
   justify-content: center;
-  width: 500px;
   align-items: center;
-  top: 50%;
-  left: 50%;
-  flex-direction: column;
+  margin-top:10%;
+
 }
 
 .initial{
@@ -18,5 +16,10 @@
 
 }
 .initial img{
- width:100px;
+ width:150px;
+}
+
+#status{
+  font-size: 40px;
+  text-align: center;
 }

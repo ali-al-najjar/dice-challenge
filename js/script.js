@@ -18,8 +18,8 @@ function diceRoll(){
   let second_die = dice[rolling_die_two]
   die_one.src=first_die;
   die_two.src=second_die;
-  console.log(dice[rolling_die_one],dice[rolling_die_two]);
-  console.log(die_one,die_two);
+  // console.log(dice[rolling_die_one],dice[rolling_die_two]);
+  // console.log(die_one,die_two);
 
   if(rolling_die_one > rolling_die_two){
       status.innerText="Player 1 Wins!";
