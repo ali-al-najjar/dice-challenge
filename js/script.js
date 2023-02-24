@@ -1,15 +1,9 @@
-document.addEventListener('DOMContentLoaded', () => {
-  let dice = ["./images/dice-one.svg",
-"./images/dice-two.svg",
-"./images/dice-three.svg",
-"./images/dice-four.svg",
-"./images/dice-five.svg",
-"./images/dice-six.svg"];
+window.onload = function(){
+  let dice = ["./images/dice-one.svg","./images/dice-two.svg","./images/dice-three.svg","./images/dice-four.svg","./images/dice-five.svg","./images/dice-six.svg"];
   let die_one = document.getElementById("die-one");
   let die_two = document.getElementById("die-two");
   let status = document.getElementById("status");
-
-let die = document.getElementsByTagName("img");
+  let die = document.getElementsByTagName("img");
 
 function diceRoll(){
   let rolling_die_one = Math.floor(Math.random()*6);
@@ -29,10 +23,8 @@ function diceRoll(){
       status.innerText = "It's a DRAW!!"
   }
   }
-
-
   diceRoll();
-})
+}
 
 
 
