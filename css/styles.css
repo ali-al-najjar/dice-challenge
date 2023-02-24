@@ -1,6 +1,7 @@
 *{
   padding:0;
   margin:0;
+  font-family: roboto,sans-serif;
 }
 
 .container{
@@ -16,8 +17,12 @@
 
 }
 
-.initial{
-
+.dice_headers{
+  display: flex;
+  gap: 10%;
+  font-size: 17px;
+  justify-content: space-around;
+  padding: 10px;
 
 }
 .initial img{

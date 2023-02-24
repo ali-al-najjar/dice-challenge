@@ -16,9 +16,9 @@ function diceRoll(){
   // console.log(die_one,die_two);
 
   if(rolling_die_one > rolling_die_two){
-      status.innerText="Player 1 Wins!";
+      status.innerText="Player One Wins!";
   }else if(rolling_die_one < rolling_die_two){
-      status.innerText = "Player 2 Wins!";
+      status.innerText = "Player Two Wins!";
   }else{
       status.innerText = "It's a DRAW!!"
   }
